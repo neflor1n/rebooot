@@ -1,0 +1,125 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.schedule {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+a1 {
+    text-align:center;
+    
+}
+a2 {
+    text-align:center;
+    font: 12px arial small-caps;
+}
+a3 {
+    text-align: left;
+    font: 12px arial small-caps;
+}
+
+.class-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead th, tbody td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody td {
+    background-color: #fff;
+}
+
+.class {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.web {
+    background-color: #FF9999;
+}
+
+.aken {
+    background: white;
+}
+
+.programming {
+    background-color: #99CCFF;
+}
+
+.database {
+    background-color: #FF9999;
+}
+
+.groupwork {
+    background-color: #FFCCFF;
+}
+
+
+.speek {
+    background-color: #f0e68c;
+}
+
+.social {
+    background-color: #ffebcd;
+}
+
+.keel {
+    background-color: #dda0dd;
+}
+.eestikeel {
+    background-color: #be33ff;
+}
+.matemaatika {
+    background-color: pink;
+}
+
+.inglisekeel {
+    background-color: greenyellow;
+}
+
+
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tbody td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+    }
+
+        tbody td:before {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: bold;
+        }
+}

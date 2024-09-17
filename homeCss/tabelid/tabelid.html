@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelid HTML</title>
+    <link rel="stylesheet" href="tabelStyle.css">
+</head>
+<body>
+    <h1>Tabelid HTML keeles</h1>
+    <table id="t1">
+        <caption>Väga lihtne tabel</caption>
+        <tr>
+            <td class="kollane">A</td>
+            <td class="roheline">B</td>
+        </tr>
+        <tr>
+            <td class="olive">C</td>
+            <td class="roheline">D</td>
+        </tr>
+
+    </table>
+
+<!--Teine tabeli-->
+    <br>
+    <br>
+
+    <table id="t2">
+        <caption>Rowspan omadusega tabel</caption>
+        <tr>
+            <td rowspan="2" class="kollane">A</td>
+            <td class="kollane">B</td>
+        </tr>
+        <tr>
+            <td class="olive">C</td>
+
+        </tr>
+
+    </table>
+
+<!--Kolma tabeli-->
+    <br>
+    <br>
+
+    <table id="t3">
+        <caption>Colspan omadusega tabel</caption>
+        <tr>
+            <td colspan="3" class="kollane">A</td>
+
+        </tr>
+        <tr>
+            <td class="roheline">B</td>
+            <td class="olive">C</td>
+            <td class="roheline">D</td>
+        </tr>
+
+    </table>
+<!--Kolma tabeli-->
+    <br>
+    <br>
+
+    <table id="t4">
+        <caption>Ülessane #1</caption>
+        <tr>
+            <td rowspan="4" class="kollane">A</td>
+            <td colspan="2" class="blue">B</td>
+            <td class="olive">C</td>
+
+        </tr>
+        <tr>
+            <td colspan="3" class="coral">D</td>
+
+        </tr>
+        <tr>
+            <td colspan="3" class="cyan">E</td>
+
+        </tr>
+        <tr>
+            <td class="punane">F</td>
+            <td class="roheline">FF</td>
+            <td class="lilla">F</td>
+        </tr>
+
+    </table>
+    <!--Kolma tabeli-->
+    <br>
+    <br>
+
+    <table id="t5">
+        <caption>Ülessane #2</caption>
+        <tr>
+            <td class="roheline" colspan="5" rowspan="1"> 1 </td>
+        </tr>
+        <tr>
+            <td class="roheline" rowspan="5"> 2 </td>
+            <td class="roheline" colspan="3"> 5 </td>
+            <td class="coral" rowspan="4"> 4 </td>
+        </tr>
+        <tr>
+            <td class="kollane" rowspan="3"> 6 </td>
+            <td class="punane"> 9 </td>
+            <td class="lilla" rowspan="2"> 8 </td>
+        </tr>
+        <tr>
+            <td class="olive"> 10 </td>
+        </tr>
+        <tr>
+            <td class="cyan" colspan="2"> 7 </td>
+        </tr>
+        <tr>
+            <td class="blue" colspan="4"> 3 </td>
+        </tr>
+        <tr>
+
+
+        </tr>
+
+    </table>
+
+</body>
+</html>

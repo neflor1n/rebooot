@@ -1,0 +1,265 @@
+#eesti {
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+#rootsi {
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 60px;
+    left: 370px;
+}
+
+#itaalia {
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 60px;
+    left: 720px;
+}
+
+#island {
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+
+#eesti tr:nth-child(1) { /*Esimene rida*/
+    background-color: blue;
+
+}
+#eesti tr:nth-child(2) {/*teine rida*/
+    background-color: black;
+}
+#eesti tr:nth-child(3) { /*kolma rida*/
+    background-color: white;
+}
+
+
+
+
+#rootsi tr:nth-child(1) td:nth-child(1),
+#rootsi tr:nth-child(3) td:nth-child(1){
+    background-color: blue;
+    width: 100px
+}
+#rootsi tr:nth-child(1) td:nth-child(2),
+#rootsi tr:nth-child(3) td:nth-child(2) {
+    background-color: yellow;
+    width: 50px
+}
+#rootsi tr:nth-child(2){
+    background-color: yellow;
+    height: 45px
+}
+#rootsi tr:nth-child(1) td:nth-child(3),
+#rootsi tr:nth-child(3) td:nth-child(3){
+    background-color: blue;
+}
+
+
+
+
+#itaalia tr:nth-child(1) {
+    background-color: green;
+}
+#itaalia tr:nth-child(2) {
+    background-color: white;
+}
+#itaalia tr:nth-child(3) {
+    background-color: red;
+}
+
+#island tr:nth-child(1) td:nth-child(1),
+#island tr:nth-child(5) td:nth-child(1){
+    background-color: blue;
+    height: 70px;
+    width: 70px;
+}
+#island tr:nth-child(2) td:nth-child(1),
+#island tr:nth-child(4) td:nth-child(1){
+    background-color: white;
+    height: 10px;
+}
+#island tr:nth-child(3) td:nth-child(1){
+    background-color: red;
+}
+#island tr:nth-child(1) td:nth-child(2),
+#island tr:nth-child(3) td:nth-child(2){
+    background-color: white;
+    width: 10px;
+}
+#island tr:nth-child(1) td:nth-child(5),
+#island tr:nth-child(5) td:nth-child(5) {
+    background-color: blue;
+    width: 190px
+}
+#island tr:nth-child(1) td:nth-child(3),
+#island tr:nth-child(3) td:nth-child(3),
+#island tr:nth-child(2) td:nth-child(3),
+#island tr:nth-child(5) td:nth-child(3),
+#island tr:nth-child(4) td:nth-child(3){
+    background-color: red;
+    width: 35px
+}
+
+#argentina {
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 300px;
+    left: 370px;
+}
+
+#argentina tr:nth-child(1) {
+    background-color: #74acdf;
+}
+
+#argentina tr:nth-child(2) {
+    background-color: white;
+    position: relative;
+}
+
+#argentina tr:nth-child(3) {
+    background-color: #74acdf;
+}
+
+#argentina tr:nth-child(2) td:nth-child(2) {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45px;
+    height: 45px;
+    background-color: gold;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 10px gold;
+}
+
+
+
+#kontrolltoo {
+    width: 40%;
+    height: 30%;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 550px;
+    left: 20px;
+}
+#kontrolltoo tr:nth-child(1) td:nth-child(1),
+#kontrolltoo tr:nth-child(1) td:nth-child(2),
+#kontrolltoo tr:nth-child(1) td:nth-child(3){
+    width: 100px;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 5px;
+}
+#kontrolltoo tr:nth-child(5) td:nth-child(2) {
+    background-color: #74acdf;
+    width: 45%;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 5px;
+}
+#kontrolltoo tr:nth-child(6) td:nth-child(1) {
+    width: 12%;
+    height: 40%;
+    background-color: #34495e;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 5px;
+}
+
+
+td.roheline {
+    border: 1px solid black;
+    text-align: left;
+    background-color: #96D4D4;
+    border-radius: 5px;
+}
+td.kollane {
+    border: 1px solid black;
+    text-align: left;
+    background-color: yellow;
+    border-radius: 5px;
+}
+td.olive {
+    border: 1px solid black;
+    text-align: left;
+    background-color: olive;
+    border-radius: 5px;
+}
+td.punane{
+    border: 1px solid black;
+    text-align: left;
+    background-color: red;
+    border-radius: 5px;
+}
+td.lilla {
+    border: 1px solid black;
+    text-align: left;
+    background-color: purple;
+    border-radius: 5px;
+
+}
+td.cyan {
+    border: 1px solid black;
+    text-align: left;
+    background-color: cyan;
+    border-radius: 5px;
+
+}
+td.red {
+
+    text-align: left;
+    background-color: red;
+
+
+}
+td.white {
+
+    text-align: left;
+    background-color: white;
+
+
+}
+td.green {
+
+    text-align: left;
+    background-color: green;
+
+
+}
+
+
+td.coral {
+    border: 1px solid black;
+    text-align: left;
+    background-color: coral;
+    border-radius: 5px;
+
+}
+td.blue {
+    border: 1px solid black;
+    text-align: left;
+    background-color: blue;
+    border-radius: 5px;
+
+}

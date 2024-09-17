@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Praktiline website #1</title>
+    <link rel="stylesheet" type="text/css" href="websiteStyle1.css">
+    <link rel="stylesheet" href="jquery.tzineClock.css">
+</head>
+<body>
+    <header>
+        <h1 class="title1" >Praktiline Portfoolio</h1>
+        <div class="switch-container">
+            <a class="abutton">Teema muutmine</a>
+            <label class='switch'>
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </header>
+
+    <nav> 
+        <ul>
+            <li><a href="index.html">Koduleht</a></li>
+            <li><a href="tood.html">Tööd</a></li>
+        </ul>
+    </nav>
+    <section class="container"></section>
+        <details name="how">
+            <summary>
+               Minust
+            </summary>
+            <ul>
+                <li>Ma õpin TööstusHaridusKeskus</li>
+                <li>Ma olen 16 aastat vana</li>
+                <li>Hobi: programmerimine, ujuda, teeda aikido. <br>Ja kirjutan ka luulet</li>
+                <li><p><a class="tunniplaan" href="Ajakava.html">Tunniplaan TARpv23</a></p></li>
+                <li>Tegin allpool oma animeeritud kella</li>
+            </ul>
+        </details>
+    </section>
+    <section class="container">
+        <details name="how">
+            <summary>
+                Minu arvuti komponendit
+            </summary>
+            <ul>
+                <li>OS: Windows 11/archLinux</li>
+                <li>Videokaart: RTX 3070 Ti</li>
+                <li>CPU: 12th Gen I9 12900KF</li>
+                <li>RAM: 32Gb</li>
+                <li>Diskid: 2Tb ja 1tb</li>
+            </ul>
+        </details>
+    </section>
+
+    <section class="container">
+        <details name="how">
+            <summary>
+               Proektid
+            </summary>
+            <ul>
+                <li><p><a class="koduleht" href="index.html">Mu Koduleht</a></p></li>
+                <li><p><a class="lingid" href="lingid.html">Riigid tabelli</a></p></li>
+            </ul>
+        </details>
+    </section>
+    
+
+    <div class="card">
+        <p class="tere-card">Tere</p>
+        <p class="heading">Powered By</p>
+        <p>neflor1n</p>
+      </div>
+
+
+    <div class="watch" id="watch"></div>
+
+
+    <footer>
+        <a><p class="footerP">&copy; BogdanS</p></a>
+    </footer>
+    <script>
+    function updateWatch() {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        document.getElementById('watch').textContent = `${hours}:${minutes}:${seconds}`;
+    }
+    setInterval(updateWatch, 1000);
+    updateWatch();
+</script>
+    <script>
+        const switchToggle = document.querySelector('.switch input');
+        const body = document.body;
+        const nav = document.querySelector('nav');
+        const footer = document.querySelector('footer');
+        const header = document.querySelector('header');
+        const title1 = document.querySelector('.title1');
+        const footerP = document.querySelector('footerP');
+
+        switchToggle.addEventListener('change', () => {
+            body.classList.toggle('dark-theme');
+                header.classList.toggle('dark-theme');
+                nav.classList.toggle('dark-theme');
+                footer.classList.toggle('dark-theme');
+                title1.classList.toggle('dark-theme');
+                footerP.classList.toggle('dark-theme');
+
+        });
+    </script>
+
+
+</body>
+ 
+</html>

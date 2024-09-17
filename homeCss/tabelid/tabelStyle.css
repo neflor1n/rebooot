@@ -1,0 +1,78 @@
+table#t1 {
+    border: 1px solid white;; /*Tabelipiir valge värviga ja paksus 1px*/
+    width: 30%; /*laius*/
+
+}
+table#t2 {
+    border: 1px solid white; /*Tabelipiir valge värviga ja paksus 1px*/
+    width: 40%; /*laius*/
+
+}
+table#t3 {
+    border: 2px dotted red;; /*Tabelipiir valge värviga ja paksus 1px*/
+    width: 20%; /*laius*/
+
+}
+td.roheline {
+    border: 1px solid black;
+    text-align: left;
+    background-color: #96D4D4;
+    border-radius: 5px;
+}
+td.kollane {
+    border: 1px solid black;
+    text-align: left;
+    background-color: yellow;
+    border-radius: 5px;
+}
+td.olive {
+    border: 1px solid black;
+    text-align: left;
+    background-color: olive;
+    border-radius: 5px;
+}
+td.punane{
+    border: 1px solid black;
+    text-align: left;
+    background-color: red;
+    border-radius: 5px;
+}
+td.lilla {
+    border: 1px solid black;
+    text-align: left;
+    background-color: purple;
+    border-radius: 5px;
+
+}
+td.cyan {
+    border: 1px solid black;
+    text-align: left;
+    background-color: cyan;
+    border-radius: 5px;
+
+}
+td.coral {
+    border: 1px solid black;
+    text-align: left;
+    background-color: coral;
+    border-radius: 5px;
+
+}
+td.blue {
+    border: 1px solid black;
+    text-align: left;
+    background-color: blue;
+    border-radius: 5px;
+
+}
+table#t4 {
+    width: 30%;
+    border: 0 solid white;
+    border-collapse: collapse;
+}
+table#t5 {
+    border-radius: 0;
+    border-collapse: collapse;
+    width: 10%;
+
+}
